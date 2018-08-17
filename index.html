@@ -8,8 +8,16 @@
  	<link rel="stylesheet" href="style.css">
 </head>
 <body >
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.1&appId=2118026171799562&autoLogAppEvents=1';
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	<div class="menu-top">
-		<nav class="navbar navbar-light bg-faded navbar-fixed-top">
+		<nav class="navbar navbar-light bg-faded navbar-fixed-top navbar-toggler-icon">
 			<div class="container">
 				<a class="navbar-brand" href="#"><img src="images/ntt_logo.png" alt="Logo NTT"></a>
 				<ul class="nav navbar-nav float-xs-right">
@@ -34,6 +42,20 @@
 				</ul>
 			</div>
 		</nav>
+	</div>
+	<div class="comment">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 class="text-xs-center">
+						Phản hồi
+					</h1>
+					<div class="commentfb">
+						<div class="fb-comments" data-href="https://thetrung2896.github.io/" data-width="576" data-numposts="5"></div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 <script type="text/javascript" src="vendor/bootstrap.js"></script>
 <script type="text/javascript" src="main.js"></script>
