@@ -12,3 +12,6 @@ h2{
 	cursor: pointer;
 	text-decoration: none;
 }
+h2 img{
+	width: 10%;
+}
