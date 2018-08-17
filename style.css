@@ -2,16 +2,9 @@
 body{
 	font-family: "segoe ui";
 }
-h2{
-	text-align: center;
-}
-.profile{
-	margin-left: 20%;
-}
-.profile a{
-	cursor: pointer;
-	text-decoration: none;
-}
-h2 img{
-	width: 10%;
+.navbar img{
+	    width: 10%;
+    border-radius: 50%;
+    border: 1px solid gold;
+    background: #f7f7f9;
 }
