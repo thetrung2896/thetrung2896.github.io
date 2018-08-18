@@ -1,5 +1,16 @@
 *{margin: 0; padding: 0;}
 
+.tinhoccho img {
+    width: 200px;
+    border:  1px solid;
+    border-radius: 50%;
+    background-size:  cover;
+}
+
+.tinhoccho {
+    margin-top: 150px;
+}
+
 a.nav-link {
     font-family:  segoe ui;
     text-transform: uppercase;
@@ -22,9 +33,9 @@ nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
 }
 
 @media (max-width: 576px) {
-	*{
-		
-	}
+    *{
+        
+    }
 
 ul.nav.navbar-nav.float-xs-right {
     float: none !important;
@@ -45,5 +56,5 @@ a.navbar-brand {
 }
 }
 .comment{
-	margin-top: 8%;
+    margin-top: 8%;
 }
